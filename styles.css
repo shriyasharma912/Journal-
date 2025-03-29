@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffb6c1, #ff69b4, #ff1493);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Header */
+header h1 {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(45deg, #fff, #f8c6dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Journal Entry Section */
+.journal-entry, .entries-list {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* Inputs & Buttons */
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+/* Journal Entries */
+.entry {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.entry button {
+    background: rgba(255, 69, 100, 0.8);
+    padding: 5px;
+    font-size: 14px;
+}
